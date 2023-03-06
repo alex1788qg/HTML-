@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO Y ESTILOS CSS</title> 
+    <link rel="stylesheet" href="../Css/contacto.css">
+</head>
+<body>
+    <header>
+    <img src="../img/incap.jpeg" width="100" height="100" alt="incap">
+    <h1>    FORMULARIO Y LISTAS  HTML </h1>
+</header>
+<nav>
+    <li>Home</li>
+    <li >Productos</li>
+    <li >Servicios</li>
+    <li>Contacto</li>
+    </ul>
+    </nav>
+    <section>
+        <!-- Methof  GET pas  los   datos  por la  url, atravez de  parametos // Method pasa los  datos de  forma interna (no se ven) -->
+        <form action="datos.php"method="post">
+            <!-- seccion de Fieldset -->
+            <fieldset>
+        <!-- secion de  nombre  de  ingreso -->
+        <label For=""">Nombre Completo</label>
+        <input type="text" name=" nombre" placeholder="&#9756; ingese su nombre completo" required="">
+        <br><br>
+        <hr>
+        <!--  secion de email -->
+        <label>E mail:</label>
+        <input type="email" name="email" placeholder=" &#9874; Ingrese su Email" required="">
+        <br><br>
+        <!-- secion  contraseña -->
+        <label>contraseña</label>
+        <input type="password" mane="contraeña" placeholder=" &#9745; Ingrese su contraeña"required="">
+        <br><br>
+        <hr>
+        
+        <!--  seccion de Hobbies -->
+        <label> Seleciona  tus Hobbies:
+        </label>
+        <br>
+        <input type="checkbox"  name=" cine">cine<br>
+        <input type="checkbox"  name=" lectura">lectura<br>
+        <input type=" checkbox"  name="Deporte">Deporte<br>
+        <br>
+        <br>
+
+        <!-- Seccion Estado civil -->
+
+        <label for=""> estado  civil</label> <br>
+        <input type="radio"name="estcivil " value=" casado"> Casado (a)<br> 
+        <input type= "raddio" name="estcivil" value=" soltero"> soltero (a)<br> 
+        <input type= " radio" name=" estcivil" value=" viudo"> viudo(a)<br> 
+        <br>
+        <br>
+        <hr>
+
+        <!-- Seccion opcion lista -->
+        <label for ="">PROGRAMAS TECNICOS</label> 
+        <select name=" select " id="">
+            <option value=""> Selecionar programa...</option>
+            <option value=""> SISTEMAS</option>
+            <option value=""> Diseño grafico</option>
+            <option value=""> Contabilidad</option>
+            </select>
+            <br> <br>
+            <!--  seccionde  comentarioos -->
+            <labelc for>Tu  comentario</label> 
+            <br>
+            <textarea name="mensaje"id="5" cols="40"></textarea>
+            </fieldset>
+            <br> 
+            <br>
+            <hr>
+
+            <!-- seccion de   botones   form -->
+            <button type="submit"> Enviar</button>
+            <button type="reset"> Cancelar</button>
+            <br>
+            <br>
+            </form>
+            </section>
+            <!--  seccion de  footer  -->
+            <footer>
+               <p>Derechos reservados &copy;2023&#64;angel</p>
+            </footer> 
+            </body>
+            </html>

@@ -1,0 +1,121 @@
+/*  seccion  de  estilos   para  fondo pagina  web */
+body{
+    background-color: rgb(255, 255, 255,0.6);
+    background-image: url(../img/Baloncesto.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-blend-mode:luminosity ;
+
+}
+/*  seccion de  estilos  header  */
+header{
+    background:rgba(255, 255,255,0.6);
+    border:2px solid blue;
+    border-radius: 20px 20px 10px 10px;
+    display: flex;
+    flex-direction: row;/
+    justify-content: center;
+    align-items: center;
+    
+}
+ header img{
+    padding: 30px;
+ }
+ /*  secion de  estlos  para  la  brar  nav */
+ nav{
+    background-color: blue;
+    border:2px solid green;
+    border-radius: 22px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center; 
+    align-items: center; 
+    padding: 5px;
+    margin:5px;
+    color:white;
+ }
+ nav ul{
+    padding: 0 0;
+    margin: 0  1px;
+ }
+ nav ul li {
+    display: inline;
+    list-style: none;
+    margin: o 5 px;
+    font: bold 12 px verdana 
+
+ }
+/*  seccion  principal */
+
+section{
+    width: 40%;
+    border: 1px solid black;
+    padding:10px 10px;
+    border-radius: 20px;
+    margin:10px auto;
+    background:rgba(255, 255,255,0.3);
+    backdrop-filter: blur(5px);
+    }
+form{
+   width: 70%;
+   border-radius: 20px;
+   margin: 10px auto;
+   box-shadow: inset 0 0 10px purple;
+ 
+    }
+    fieldset{ 
+        border-style: none;
+    }
+    label{ 
+        font-size: 18px;
+    }
+    textarea{ 
+        resize: both;
+        max-width: 100px;
+    }
+
+    input:focus , textarea:focus{
+        border-color: rgb(20,0,255);
+        cursor: pointer;
+        box-shadow:inset 0 0 8px rgba(0, 29,255,0.6);
+        outline:0 none;
+    }
+    form button{
+        width: 40%;
+        margin: 15px 0px 20px 25px;
+        height: 40px;
+        background: radial-gradient(teal,black);
+        border:2px solid black;
+        color:white;
+        border-radius: 15px 15px;
+        
+    }
+    form button:hover{
+        background: lightblue;
+        text-decoration: underline;
+        color:black;
+        cursor:pointer;
+    }
+    
+    form input{
+        height: 20px;
+        box-sizing: border-box;
+        color:black;
+        outline: none;
+        border-radius: 5px ;
+    }
+        /*   secion  de pie de pagina  */
+        footer{
+            font-size:16px;
+            text-align: center;
+            color:darkblue;
+        
+        
+    }
+       
+        
+        
+    
+
+
